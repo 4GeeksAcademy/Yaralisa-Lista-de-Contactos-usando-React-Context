@@ -42,6 +42,7 @@ export const Home = () => {
         <div className="container">
             <div>
                 <div id="contacts" className="panel-collapse collapse show" aria-expanded="true">
+                <h1>Contacts List Yaralisa</h1>
                     <ul className="list-group pull-down" id="contact-list">
                         {store.contacts.map((item, index) => (
                             <ContactCard 
